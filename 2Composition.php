@@ -160,7 +160,7 @@
                             background-image: url('Team/Shankar.jpeg');">
                 </div>
                 <span>M.Shankar</span>
-                <p class="job"> Data Entry Operator, IQAC</p>
+                <p class="job"> DataEntry Operator,IQAC</p>
             </div>
 
             <div class="card1">
@@ -183,7 +183,7 @@
 
         // Start the file container
         echo "<div class='file-container'>";
-
+        rsort($files);
         // Loop through the files and display them
         foreach ($files as $file) {
             // Ignore '.' and '..'

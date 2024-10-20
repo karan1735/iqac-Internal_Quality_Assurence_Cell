@@ -57,6 +57,27 @@
             <li>Monitoring and Evaluation: Regularly assess progress, identify areas for improvement,
                 and adjust strategies accordingly.</li>
         </ol>
+
+        <?php
+                        $folderPath = 'files/Strategic Plan'; 
+                        $files = scandir($folderPath);
+
+            
+                        echo "<div class='file-container'>";
+
+                        rsort($files);
+                        foreach ($files as $file){
+                            
+                            if ($file !== '.' && $file !== '..') {
+                                echo "<a href='$folderPath/$file' class='file-link' target='_blank'>
+                                            <i class='fa-regular fa-file-lines'></i> $file
+                                        </a>";
+                            }
+                        }
+
+                     
+                        echo "</div>";
+                        ?>
     </main>
 
 </body>

@@ -62,7 +62,7 @@
 
                         // Start the file container
                         echo "<div class='file-container'>";
-
+                        rsort($files);
                         // Loop through the files and display them
                         foreach ($files as $file) {
                             // Ignore '.' and '..'

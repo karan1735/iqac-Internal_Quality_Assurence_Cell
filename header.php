@@ -1,7 +1,11 @@
-      <img src="image.png" alt="Kongu College Logo" class="logo" />
-      <!-- <marquee class="marquee-text" behavior="scroll" direction="left" scrollamount="5">
-        AUDIT FOR THE YEAR 2023-2024 IS SCHEDULED FROM 23.09.2024 TO 27.09.2024
-      </marquee> -->
+      <div>
+          <div class=" hamburger" onclick="toggleMenu()">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+          <img src="image.png" alt="Kongu College Logo" class="logo" />
+      </div>
 
       <?php
           $filePath = 'scrolling-text'; 
@@ -12,7 +16,7 @@
               $content = file_get_contents($filePath);
 
               // Display the content inside the marquee tag
-              echo "<marquee class='marquee-text' behavior='scroll' direction='left' scrollamount='5'>";
+              echo "<marquee class='marquee-text' behavior='scroll' direction='left' scrollamount='7'>";
               echo htmlspecialchars($content); // htmlspecialchars() for security
               echo "</marquee>";
           } else {
@@ -21,11 +25,6 @@
       ?>
 
       <div>
-          <div class=" hamburger" onclick="toggleMenu()">
-              <div></div>
-              <div></div>
-              <div></div>
-          </div>
           <a href="Contact.php" class="contact-link">CONTACT</a>
       </div>
 
@@ -45,14 +44,16 @@
 .marquee-text {
     text-align: center;
     font-weight: bold;
+    color: white;
     background-color: black;
-    color: aliceblue;
     height: 30px;
     width: 100%;
     text-align: center;
     justify-content: center;
     justify-self: center;
     border-radius: 10px;
+    backdrop-filter: blur(10px);
+
 }
 
 /* Styling the contact link */
@@ -89,7 +90,7 @@
     }
 
     .logo {
-        width: 100%;
+        width: 85%;
         height: auto;
         /* Adjust logo size on smaller screens */
     }

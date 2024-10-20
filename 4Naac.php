@@ -66,6 +66,7 @@
                         $files = scandir($folderPath);
 
                         echo "<div class='file-container'>";
+                        rsort($files);
 
                         foreach ($files as $file) {
                             if ($file !== '.' && $file !== '..') {
@@ -88,7 +89,7 @@
 
                         // Start the file container
                         echo "<div class='file-container'>";
-
+                        rsort($files);
                         // Loop through the files and display them
                         foreach ($files as $file) {
                             // Ignore '.' and '..'
@@ -112,6 +113,7 @@
 
                         // Start the file container
                         echo "<div class='file-container'>";
+                        rsort($files);
 
                         // Loop through the files and display them
                         foreach ($files as $file) {

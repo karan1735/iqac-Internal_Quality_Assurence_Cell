@@ -39,7 +39,7 @@
             employing distinct
             methodologies to evaluate and rank institutions based on criteria such as academic
             reputation, research
-            output, faculty quality, and student satisfaction.</p><br>
+            output, faculty quality, and student satisfaction.</p>
 
         <h2>RANKING @
             KEC:</h2>

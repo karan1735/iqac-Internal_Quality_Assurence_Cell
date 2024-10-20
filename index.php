@@ -38,7 +38,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" style="height: 37rem; border-radius: 10px;">
+            <div class="carousel-inner" style="height: 38rem;border-radius: 15px; text-align:center">
                 <div class="maintext">
                     <h3>Internal Quality Assurance Cell (IQAC)
                     </h3>
@@ -164,7 +164,7 @@
 
 </div>
 <hr>
-
+<h2>OUTCOMES:</h2><br>
 <section>
     <section class="image-grid">
         <div class="grid-item"><img src="outcomes-asserts/NBA.png" alt="Image 7">
@@ -184,7 +184,7 @@
 </section>
 
 </div>
-<hr>
+<hr><br>
 
 <h2>REFERENCE:</h2>
 <p>Guidelines from NAAC for the Creation of the Internal Quality Assurance Cell (IQAC)
