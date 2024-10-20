@@ -38,7 +38,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" style="height: 38rem;border-radius: 15px; text-align:center">
+            <div class="carousel-inner" style="height: 37rem;border-radius: 15px; text-align:center">
                 <div class="maintext">
                     <h3>Internal Quality Assurance Cell (IQAC)
                     </h3>
@@ -190,11 +190,9 @@
 <p>Guidelines from NAAC for the Creation of the Internal Quality Assurance Cell (IQAC)
     and
     Submission of Annual Quality Assurance Report (AQAR) in Accredited Institutions.
-</p><br>
-<p style="text-align: center;">Designed By Karan T - 22ITR041 - Department of Information technology</p>
-<p style="text-align: center;">Maintained by IQAC Cell</p>
+</p>
 
-
+<footer id="footer"></footer>
 </main>
 
 </body>

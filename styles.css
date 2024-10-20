@@ -326,6 +326,28 @@ h1 {
   margin-right: 8px;
   color: #ff0000;
 }
+.file-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.file-table th, .file-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.file-table th {
+  background-color: #f2f2f2;
+}
+
+.file-table td a {
+  text-decoration: none;
+  color: #000;
+}
+
+.file-table td a:hover {
+  text-decoration: underline;
+}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
@@ -354,9 +376,11 @@ h1 {
 
 footer {
   grid-area: footer;
-  background-color: brown;
   text-align: center;
-  padding: 10px;
+  font-size: smaller;
+  border-top: 2px solid black;
+  margin-top: 30px;
+  padding-top: 40px;
 }
 /* General responsive behavior */
 @media (max-width: 1200px) {

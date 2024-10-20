@@ -199,6 +199,7 @@
         ?>
 
 
+        <footer id="footer"></footer>
     </main>
 
 </body>

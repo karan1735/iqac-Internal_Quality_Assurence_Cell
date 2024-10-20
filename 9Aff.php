@@ -358,7 +358,7 @@
             </div>
         </div>
 
-        <!-- <div id="accordian"></div> -->
+        <footer id="footer"></footer>
     </main>
 
 </body>

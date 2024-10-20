@@ -75,6 +75,7 @@
         // End the file container
         echo "</div>";
         ?>
+        <footer id="footer"></footer>
 
     </main>
 
