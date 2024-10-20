@@ -36,8 +36,32 @@
             department level once in every Semester. Second is inter department level once in every year
             and third by external audit every year.</p>
 
-        <?php
-        $folderPath = 'files/Audit details';
+        <div class="row">
+            <div class="col"><?php
+                $folderPath = 'files/Audit details';
+                $files = scandir($folderPath);
+
+                echo "<div class='file-container'>";
+                rsort($files);
+
+                foreach ($files as $file) {
+                    $filePath = $folderPath . '/' . $file;
+
+                    // Check if the item is a file, not a directory
+                    if (is_file($filePath) && $file !== '.' && $file !== '..') {
+                        echo "<a href='$filePath' class='file-link' target='_blank'>
+                                <i class='fa-regular fa-file-lines'></i> $file
+                            </a>";
+                    }
+                }
+
+                echo "</div>";
+            ?></div>
+
+        </div>
+        <div class="row">
+            <div class="col"><?php
+        $folderPath = 'files/Audit details/action taken reports';
         $files = scandir($folderPath);
 
 
@@ -55,6 +79,29 @@
 
         echo "</div>";
         ?>
+            </div><br>
+            <div class="col"><?php
+        $folderPath = 'files/Audit details/reports';
+        $files = scandir($folderPath);
+
+
+        echo "<div class='file-container'>";
+        rsort($files);
+
+        foreach ($files as $file) {
+
+            if ($file !== '.' && $file !== '..') {
+                echo "<a href='$folderPath/$file' class='file-link' target='_blank'>
+                                            <i class='fa-regular fa-file-lines'></i> $file
+                                        </a>";
+            }
+        }
+
+        echo "</div>";
+        ?>
+            </div>
+        </div>
+
     </main>
 
 </body>
