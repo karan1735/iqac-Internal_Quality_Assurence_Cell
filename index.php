@@ -55,6 +55,10 @@
                     <img class="d-block w-100" src="Asserts/kecgate.jpg" alt="Third slide"
                         style="filter: brightness(80%);">
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Asserts/img1.jpg" alt="Third slide"
+                        style="filter: brightness(80%);">
+                </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
