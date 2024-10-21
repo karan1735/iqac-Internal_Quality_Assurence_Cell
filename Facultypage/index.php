@@ -56,12 +56,16 @@ $xlFiles = getFilesByExtension('iqacpdf_files/copo', ['xlsx']);
     <div class="container">
         <div class="box1">
             <h2>Quality Plan</h2>
-            <a href="iqacpdf_files/qualityplan/00_IQAC_PLAN_01.09.2023.pdf" target="_blank"
-                rel="noopener noreferrer">Download Quality Plan</a>
+            <li> <a href="iqacpdf_files/qualityplan/00_IQAC_PLAN_01.09.2023.pdf" target="_blank"
+                    rel="noopener noreferrer">Download Quality Plan</a></li>
+
         </div>
 
         <div class="box1">
             <h2>Roles and Responsibilities</h2>
+            <li> <a href="iqacpdf_files\roles\Rolls 19.09.24.pdf" target="_blank" rel="noopener noreferrer">Rolls</a>
+            </li>
+
         </div>
 
         <div class="box1">
