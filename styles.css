@@ -43,11 +43,10 @@ nav {
     #001150,
     #000243
   );
-  
   display: flex;
   flex-direction: row;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   position: fixed;
   top: 70px;
   left: 0;
@@ -60,7 +59,7 @@ nav {
 }
 
 nav::-webkit-scrollbar {
-  width: 40px; 
+  width: 10px; 
 }
 
 nav::-webkit-scrollbar-track {
@@ -88,6 +87,8 @@ nav li {
   list-style: none;
   position: relative;
   font-size:medium;
+  padding:0;
+  margin: 0;
 }
 
 nav li a {
@@ -113,7 +114,7 @@ nav li a.active {
 
 nav i {
   margin-right: 15px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 
