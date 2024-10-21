@@ -1,5 +1,6 @@
 <?php
-function getFilesByExtension($dir, $extensions) {
+function getFilesByExtension($dir, $extensions)
+{
     $files = [];
     if (is_dir($dir)) {
         if ($dh = opendir($dir)) {
@@ -14,7 +15,7 @@ function getFilesByExtension($dir, $extensions) {
             closedir($dh);
         }
     }
-    
+
     // Sort the files numerically using natural order sorting (natsort)
     natsort($files);
     return $files;
@@ -22,7 +23,7 @@ function getFilesByExtension($dir, $extensions) {
 
 $pdfFiles = getFilesByExtension('iqacpdf_files/', ['pdf']);
 $docFiles = getFilesByExtension('iqacpdf_files/', ['doc', 'docx', 'xlsx']);
-$xlFiles = getFilesByExtension('iqacpdf_files/copo',['xlsx']);
+$xlFiles = getFilesByExtension('iqacpdf_files/copo', ['xlsx']);
 ?>
 
 <!DOCTYPE html>
@@ -41,22 +42,22 @@ $xlFiles = getFilesByExtension('iqacpdf_files/copo',['xlsx']);
     <div class="top">
         <h1> Kongu Engineering College </h1>
         <a href="./check/index1.php">
-
             <h1> Internal Quality Assurance CELL (IQAC)</h1>
             <h2 style="color:#DE3163;">
                 <center> IQAC Documents Format</center>
             </h2>
-
     </div>
+
     <div class="bottom">
         <!--<a href="index.php">Back to Dashboard</a>-->
         <a href="../index.php">Back to Homepage</a>
     </div>
-    <div class="container">
 
+    <div class="container">
         <div class="box1">
             <h2>Quality Plan</h2>
-            <a href="iqacpdf_files/qualityplan/00_IQAC_PLAN_01.09.2023.pdf" target="_blank">Download Quality Plan</a>
+            <a href="iqacpdf_files/qualityplan/00_IQAC_PLAN_01.09.2023.pdf" target="_blank"
+                rel="noopener noreferrer">Download Quality Plan</a>
         </div>
 
         <div class="box1">
@@ -64,22 +65,21 @@ $xlFiles = getFilesByExtension('iqacpdf_files/copo',['xlsx']);
         </div>
 
         <div class="box1">
-            <h2>CO-PO ATTAINTMENT SHEET</h2>
+            <h2>CO-PO ATTAINMENT SHEET</h2>
             <ul>
                 <?php foreach ($xlFiles as $file): ?>
-                <li><a href="iqacpdf_files/copo/<?php echo $file; ?>"><?php echo $file; ?></a></li>
+                <li><a href="iqacpdf_files/copo/<?php echo $file; ?>" target="_blank"
+                        rel="noopener noreferrer"><?php echo $file; ?></a></li>
                 <?php endforeach; ?>
-
             </ul>
-
         </div>
-
 
         <div class="box2">
             <h2>Download PDF Files</h2>
             <ul>
                 <?php foreach ($pdfFiles as $file): ?>
-                <li><a href="iqacpdf_files/<?php echo $file; ?>" download><?php echo $file; ?></a></li>
+                <li><a href="iqacpdf_files/<?php echo $file; ?>" target="_blank"
+                        rel="noopener noreferrer"><?php echo $file; ?></a></li>
                 <?php endforeach; ?>
             </ul>
         </div>
@@ -88,13 +88,12 @@ $xlFiles = getFilesByExtension('iqacpdf_files/copo',['xlsx']);
             <h2>Download DOC Files</h2>
             <ul>
                 <?php foreach ($docFiles as $file): ?>
-                <li><a href="iqacpdf_files/<?php echo $file; ?>" download><?php echo $file; ?></a></li>
+                <li><a href="iqacpdf_files/<?php echo $file; ?>" target="_blank"
+                        rel="noopener noreferrer"><?php echo $file; ?></a></li>
                 <?php endforeach; ?>
             </ul>
         </div>
-
     </div>
-
 </body>
 
 </html>
