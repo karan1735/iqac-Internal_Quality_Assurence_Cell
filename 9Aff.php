@@ -98,12 +98,9 @@
     .tab-container {
         display: flex;
         flex-direction: column;
-        width: 100.;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
+        max-width: 100%;
         background: linear-gradient(135deg, #f0f4ff, #e3e9ff);
-        border-radius: 15px;
+        border-radius: 5px;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         overflow: hidden;
     }
@@ -113,13 +110,13 @@
         display: flex;
         justify-content: space-around;
         background-color: #001465;
-        padding: 12px;
+        padding: 10px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     .outer-tab-nav button {
-        background: linear-gradient(145deg, #d1e3ff, #b0c1ff);
+        background: white;
         border: none;
         padding: 14px 28px;
         cursor: pointer;
@@ -148,15 +145,15 @@
     .inner-tab-nav {
         display: flex;
         justify-content: space-around;
-        background: linear-gradient(135deg, #e6edff, #dfe5ff);
-        padding: 10px;
-        margin-top: 15px;
+        background-color: #001465;
+        padding: 5px;
+        margin-top: 5px;
         border-radius: 10px;
         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
     }
 
     .inner-tab-nav button {
-        background: linear-gradient(145deg, #dfe5ff, #c7d4ff);
+        background: white;
         border: none;
         padding: 10px 20px;
         cursor: pointer;
