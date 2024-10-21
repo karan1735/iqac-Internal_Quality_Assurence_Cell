@@ -268,13 +268,13 @@
                 <h4 class="heading">Autonomous</h4>
                 <!--  Content HERE-->
                 <p align="left"> Kongu Engineering College autonomous status valid upto
-                    2023-2033 [<a href="docs/autonomous/KEC_autonomous_approval_23-33.pdf">Download</a>]
+                    2023-2033 [<a href="docs/autonomous/KEC_autonomous_approval_23-33.pdf" target="_blank">Download</a>]
                 </p>
                 <p align="left"> Kongu Engineering College autonomous status valid upto
-                    2022-2023 [<a href="docs/autonomous/KEC_autonomous_approval.pdf">Download</a>]
+                    2022-2023 [<a href="docs/autonomous/KEC_autonomous_approval.pdf" target="_blank">Download</a>]
                 </p>
                 <p align="left"> Kongu Engineering College autonomous status valid upto
-                    2012-2013 [<a href="docs/autonomous/KEC_autonomous_approval1.pdf">Download</a>]
+                    2012-2013 [<a href="docs/autonomous/KEC_autonomous_approval1.pdf" target="_blank">Download</a>]
                 </p>
 
 
@@ -541,7 +541,7 @@
             <div id="tab3" class="tab-content outer-tab-content">
                 <!-- Inner Tab Navigation -->
                 <div class="tab-nav inner-tab-nav">
-                    <button class="tab-link active" onclick="openTab(event, 'ENG', 'inner')">ENG</button>
+                    <button class="tab-link active" onclick="openTab(event, 'ENG', 'inner')">E&T</button>
                     <button class="tab-link" onclick="openTab(event, 'MBA', 'inner')">MBA</button>
                     <button class="tab-link" onclick="openTab(event, 'MCA', 'inner')">MCA</button>
                 </div>
@@ -585,8 +585,8 @@
                                         <p align="center"> 30 </p>
                                     </td>
                                     <td valign="top">
-                                        <p><a
-                                                href="docs/aicte_approvals/E&amp;T-001-1993-94.20FIRST.20APPROVAL.20OF.20THE.20COLLEGE.20(E&amp;T).2019.04.1993.20001.pdf">
+                                        <p><a href="docs/aicte_approvals/E&amp;T-001-1993-94.20FIRST.20APPROVAL.20OF.20THE.20COLLEGE.20(E&amp;T).2019.04.1993.20001.pdf"
+                                                target="_blank">
                                                 F.No. 45-46/91-AICTE/586</a></p>
                                     </td>
                                     <td valign="top">
@@ -668,8 +668,8 @@
                                         <p align="center"> 30 </p>
                                     </td>
                                     <td valign="top">
-                                        <p><a
-                                                href="docs/aicte_approvals/E&amp;T-002-1993-94.20ext.20of.20.20APPROVAL.2028.10.1993.pdf">
+                                        <p><a href="docs/aicte_approvals/E&amp;T-002-1993-94.20ext.20of.20.20APPROVAL.2028.10.1993.pdf"
+                                                target="_blank">
                                                 F.No. 45-46/91-AICTE/9532</a></p>
                                     </td>
                                     <td valign="top">
@@ -11995,6 +11995,15 @@ fetch("folder/accordian.html")
     .then((data) => {
         document.getElementById("accordian").innerHTML = data;
     });
+</script>
+<script>
+// Select all anchor tags within the table
+const tableLinks = document.querySelectorAll("table a");
+
+// Loop through each anchor tag and add the target="_blank"
+tableLinks.forEach(function(link) {
+    link.setAttribute("target", "_blank");
+});
 </script>
 
 </html>
