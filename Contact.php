@@ -30,21 +30,11 @@
     </nav>
     <main>
         <h1>CONTACT</h1><br>
-
-        <p><b>Administration/Reception</b></p>
-        <p>
-        <p>KONGU ENGINEERING COLLEGE</p>
-        <p>Perundurai, Erode-638 060, Tamilnadu, India</p>
-        <p>Phone : 04294 - 226555, 226666, 226500</p>
-        </p>
-
-        <p>
-            <b>Principal</b>
-        <p>Phone : 04294 - 220583</p>
-        <p>Fax : 04294 - 220087</p>
-        <p>E-mail : principal@kongu.ac.in</p>
-        </p>
-
+        <strong>
+            <h4>Dr.N.Senthilnathan,</h4>
+            <h4>Professor & Chief Coordinator – Accreditation & Ranking,</h4>
+            <h4>9842783745</h4>
+        </strong>
         <br>
     </main>
 

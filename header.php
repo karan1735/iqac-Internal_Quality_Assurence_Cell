@@ -53,6 +53,10 @@
     justify-self: center;
     border-radius: 10px;
     backdrop-filter: blur(10px);
+    letter-spacing: 2px;
+    /* Adjust spacing between letters */
+    word-spacing: 5px;
+    /* Adjust spacing between words */
 
 }
 
