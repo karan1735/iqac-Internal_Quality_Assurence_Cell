@@ -329,24 +329,29 @@ h1 {
 .file-table {
   width: 100%;
   border-collapse: collapse;
+  border-radius: 15px;
 }
 
-.file-table th, .file-table td {
-  padding: 8px;
-  text-align: left;
+.file-table td {
+  padding: 15px;
+  text-align: center;
 }
 
 .file-table th {
-  background-color: #f2f2f2;
+  padding: 15px;
+  background-color: #001465;
+  color:white;
+  text-align: left;
+  font-size: large;
 }
 
 .file-table td a {
   text-decoration: none;
-  color: #000;
+  color: #0033ff;
 }
 
 .file-table td a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Media Queries for Responsiveness */
