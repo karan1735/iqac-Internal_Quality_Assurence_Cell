@@ -29,8 +29,7 @@
         <div id="navbar"></div>
     </nav>
     <main>
-        <h1>AUDITS:
-        </h1><br>
+        <h1>AUDITS</h1><br>
         <p>In Kongu Engineering College, the IQAC is responsible for conducting audits at various levels
             to ensure quality. Every year IQAC and academic audit is conducted at three levels, First is
             department level once in every Semester. Second is inter department level once in every year

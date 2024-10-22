@@ -29,7 +29,7 @@
         <div id="navbar"></div>
     </nav>
     <main>
-        <h1>ANNUAL REPORTS:</h1><br>
+        <h1>ANNUAL REPORTS</h1><br>
         <p>In Kongu Engineering College an annual report is prepared by IQAC and presented by principal
             during the Annual day celebrations, The during consists of Enrollment and student data,
             academic highlights, curriculum and programs, Faculty and staff, research and innovation

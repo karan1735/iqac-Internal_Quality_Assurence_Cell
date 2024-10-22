@@ -29,7 +29,7 @@
         <div id="navbar"></div>
     </nav>
     <main>
-        <h1>MEETING & MINUTES:</h1><br>
+        <h1>MEETING & MINUTES</h1><br>
         <p>Meetings
             are essential components of effective administration, serving as platforms for
             decision-making,

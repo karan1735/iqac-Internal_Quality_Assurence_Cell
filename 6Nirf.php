@@ -31,7 +31,7 @@
     <main>
         <h1>National Institutional Ranking Framework (NIRF)</h1><br>
         <h2>NIRF &
-            Other Rankings:</h2>
+            Other Rankings</h2>
         <p>Rankings
             offer a critical overview of higher education institutions, providing a comparative analysis
             of their
@@ -42,7 +42,7 @@
             output, faculty quality, and student satisfaction.</p>
 
         <h2>RANKING @
-            KEC:</h2>
+            KEC</h2>
         <p>National Institutional Ranking Framework (NIRF) is an initiative by the Government of India,
             introduced in 2015, to evaluate and rank higher education institutions across the country.
             Developed by the Ministry of Education, NIRF aims to provide a transparent and comprehensive

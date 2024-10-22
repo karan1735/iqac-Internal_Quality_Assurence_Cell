@@ -30,7 +30,7 @@
     </nav>
     <main>
 
-        <h1>STRATEGIC PLAN :</h1><br>
+        <h1>STRATEGIC PLAN</h1><br>
         <p>A strategic plan is a document that outlines an organization’s goals, objectives, and
             strategies for achieving success. It defines where the organization wants to go, how it will
             get there, and what resources it will need to allocate to achieve its objectives.</p>

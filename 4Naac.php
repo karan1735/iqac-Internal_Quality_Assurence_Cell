@@ -30,7 +30,7 @@
     </nav>
     <main>
         <h1>The National Assessment and Accreditation Council(NAAC)</h1><br>
-        <h2>ABOUT NAAC:</h2>
+        <h2>ABOUT NAAC</h2>
         <p>
             The National Assessment and Accreditation Council (NAAC) is an autonomous body established
             by
@@ -52,7 +52,7 @@
             the
             institution's credibility and educational offerings.
         </p>
-        <h2>NAAC@KEC:</h2>
+        <h2>NAAC@KEC</h2>
         <p>
             Kongu Engineering College first underwent NAAC assessment in 2016, where it received an ‘A’
             grade. With a

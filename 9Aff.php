@@ -240,7 +240,7 @@
     <main>
 
         <!--content start-->
-        <h1>Affiliation and Approvals:</h1><br>
+        <h1>Affiliation and Approvals</h1><br>
         <p>
             Affiliation under a university is a formal process through which academic institutions gain
             recognition

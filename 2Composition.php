@@ -29,7 +29,7 @@
         <div id="navbar"></div>
     </nav>
     <main>
-        <h1>COMPOSITION OF IQAC:</h1>
+        <h1>COMPOSITION OF IQAC</h1>
         <p>The composition of the IQAC in KEC is as follows:</p>
         <ul>
             <li><b>Chairperson:</b> Head of the Institution</li>
@@ -42,8 +42,8 @@
         </ul><br>
 
 
-        <h2>TEAM IQAC @ KEC:</h2><br>
-        <div class="row">
+        <h2>TEAM IQAC @ KEC</h2><br>
+        <div class="teamgrid">
             <div id="prinicipal" class="card1">
                 <div class="card-border-top">
                 </div>
@@ -153,7 +153,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="card1">
+            <div class="card1" style="margin: 20px 20px 20px 30px;">
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
@@ -162,8 +162,7 @@
                 <span>M.Shankar</span>
                 <p class="job"> DataEntry Operator,IQAC</p>
             </div>
-
-            <div class="card1">
+            <div class="card1" style="margin: 20px 20px 20px 30px;">
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
@@ -175,7 +174,7 @@
 
         </div><br>
 
-        <h2>FORMATION OF IQAC :</h2><br>
+        <h2>FORMATION OF IQAC</h2><br>
 
         <?php
         $folderPath = 'files/Formation of IQAC'; // Path to your folder

@@ -30,7 +30,7 @@
     </nav>
     <main>
         <h1>The National Board of Accreditation (NBA)</h1><br>
-        <h2>ABOUT NBA:</h2>
+        <h2>ABOUT NBA</h2>
         <p>The
             National Board of Accreditation (NBA), India was initially established by the All India
             Council of
@@ -59,8 +59,7 @@
             Tier-1 are
             eligible for recognition by other signatories of the Washington Accord.</p>
 
-        <h2>NBA@KEC
-        </h2>
+        <h2>NBA@KEC</h2>
         <p>KEC
             association with NBA dated back to 2001. Since 2001 all eligible programs have been
             accredited time to

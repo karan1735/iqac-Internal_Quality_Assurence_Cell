@@ -31,7 +31,7 @@
     <main>
         <h1>International Organization for Standardization(ISO)</h1><br>
         <!--content start-->
-        <h2>ABOUT ISO:
+        <h2>ABOUT ISO
         </h2>
         <p>ISO
             certifications represent a commitment to excellence and adherence to internationally
@@ -46,7 +46,7 @@
             competitive
             edge in the Nation and beyond.</p>
 
-        <h2>ISO@KEC:</h2>
+        <h2>ISO@KEC</h2>
         <p>Kongu
             Engineering College is certified by ISO in accordance with ISO 9001:1993 from 1999,
             subsequently by ISO
