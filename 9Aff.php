@@ -11921,7 +11921,6 @@
             </div>
         </div>
         <br><br><br><br><br><br><br><br>
-        <footer id="footer"></footer>
     </main>
 
 </body>
