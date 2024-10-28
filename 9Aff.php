@@ -266,9 +266,8 @@
             <!-- Outer Tab Contents -->
             <div id="tab1" class="tab-content outer-tab-content active">
                 <h4 class="heading">Autonomous</h4>
-                <!--  Content HERE-->
                 <p align="left"> Kongu Engineering College autonomous status valid upto
-                    2023-2033 [<a href="docs/autonomous/KEC_autonomous_approval_23-33.pdf" target="_blank">Download</a>]
+                    2032-2033 [<a href="docs/autonomous/KEC_autonomous_approval_23-33.pdf" target="_blank">Download</a>]
                 </p>
                 <p align="left"> Kongu Engineering College autonomous status valid upto
                     2022-2023 [<a href="docs/autonomous/KEC_autonomous_approval.pdf" target="_blank">Download</a>]
@@ -579,10 +578,10 @@
                                         <p align="center"> 01.</p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Civil Engineering</p>
+                                        <p> B.E.Civil Engineering</p>
                                     </td>
                                     <td valign="top">
-                                        <p align="center"> 30 </p>
+                                        <p align="center">30</p>
                                     </td>
                                     <td valign="top">
                                         <p><a href="docs/aicte_approvals/E&amp;T-001-1993-94.20FIRST.20APPROVAL.20OF.20THE.20COLLEGE.20(E&amp;T).2019.04.1993.20001.pdf"
@@ -590,10 +589,10 @@
                                                 F.No. 45-46/91-AICTE/586</a></p>
                                     </td>
                                     <td valign="top">
-                                        <p align="center"> 19.04.1993 </p>
+                                        <p align="center">19.04.1993</p>
                                     </td>
                                     <td valign="top">
-                                        <p align="center"> 1992-1994 </p>
+                                        <p align="center">1992-1994</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -601,7 +600,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -621,7 +620,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p> B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -642,7 +641,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Computer Science and Engineering</p>
+                                        <p>B.E.Computer Science and Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 30 </p>
@@ -662,7 +661,7 @@
                                         <p align="center"> 02</p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Civil Engineering</p>
+                                        <p> B.E.Civil Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 30 </p>
@@ -684,7 +683,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p>B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -704,7 +703,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -767,7 +766,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -787,7 +786,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -894,7 +893,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -914,7 +913,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -1039,7 +1038,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -1059,7 +1058,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -1080,7 +1079,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Computer Science and Engineering</p>
+                                        <p> B.E.Computer Science and Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -1100,10 +1099,10 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.Tech. Chemical Engineering</p>
+                                        <p> B.Tech.Chemical Engineering</p>
                                     </td>
                                     <td valign="top">
-                                        <p align="center"> 40 </p>
+                                        <p align="center">40</p>
                                     </td>
                                     <td valign="top">
                                         <p>&nbsp; </p>
@@ -1182,7 +1181,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -1202,7 +1201,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -1355,7 +1354,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -1375,7 +1374,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -1561,7 +1560,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -1581,7 +1580,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -1745,7 +1744,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -1765,7 +1764,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -1951,7 +1950,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 60 </p>
@@ -1971,7 +1970,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication</p>
+                                        <p>B.E.Electronics and Communication</p>
                                         <p> Engineering</p>
                                     </td>
                                     <td valign="top">
@@ -4816,7 +4815,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 120 </p>
@@ -4916,7 +4915,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 120 </p>
@@ -5161,7 +5160,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 120 to 180 </p>
@@ -5181,7 +5180,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 120 to 180 </p>
@@ -5605,7 +5604,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 180 to 240 </p>
@@ -5625,7 +5624,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 180 to 240 </p>
@@ -6091,7 +6090,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -6111,7 +6110,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -6616,7 +6615,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -6636,7 +6635,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -7139,7 +7138,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -7159,7 +7158,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -7684,7 +7683,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -7704,7 +7703,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -8229,7 +8228,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -8249,7 +8248,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240 </p>
@@ -8772,7 +8771,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240</p>
@@ -8792,7 +8791,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240</p>
@@ -9315,7 +9314,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Mechanical Engineering</p>
+                                        <p> B.E.Mechanical Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240</p>
@@ -9335,7 +9334,7 @@
                                         <p align="center">&nbsp; </p>
                                     </td>
                                     <td valign="top">
-                                        <p> B.E. Electronics and Communication Engineering</p>
+                                        <p>B.E.Electronics and Communication Engineering</p>
                                     </td>
                                     <td valign="top">
                                         <p align="center"> 240</p>
@@ -9856,7 +9855,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Mechanical Engineering </p>
+                                        <p> B.E.Mechanical Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 240 </p>
@@ -9866,7 +9865,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Electronics and Communication Engineering </p>
+                                        <p>B.E.Electronics and Communication Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 240 </p>
@@ -10116,7 +10115,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Mechanical Engineering </p>
+                                        <p> B.E.Mechanical Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 120 </p>
@@ -10126,7 +10125,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Electronics and Communication Engineering </p>
+                                        <p>B.E.Electronics and Communication Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 240 </p>
@@ -10408,7 +10407,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Mechanical Engineering </p>
+                                        <p> B.E.Mechanical Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 120 </p>
@@ -10418,7 +10417,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Electronics and Communication Engineering </p>
+                                        <p>B.E.Electronics and Communication Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 240 </p>
@@ -10708,7 +10707,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Electronics and Communication Engineering </p>
+                                        <p>B.E.Electronics and Communication Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 240 </p>
@@ -10748,7 +10747,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> B.E. Mechanical Engineering </p>
+                                        <p> B.E.Mechanical Engineering </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 60 </p>
@@ -10818,7 +10817,7 @@
                                     <td width="50">
                                     </td>
                                     <td width="229">
-                                        <p> Maser in Computer Applications </p>
+                                        <p>Master in Computer Applications </p>
                                     </td>
                                     <td width="80">
                                         <p align="center"> 120 </p>

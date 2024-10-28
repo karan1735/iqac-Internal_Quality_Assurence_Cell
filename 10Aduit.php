@@ -30,23 +30,25 @@
     </nav>
     <main>
         <h1>AUDITS</h1><br>
+	<p>Audits are systematic and independent examinations conducted to assess the
+		accuracy, compliance, and efficiency of an organization’s operations. The audit process
+		typically includes planning, data collection, testing, and reporting, culminating in an
+		audit report that highlights findings, recommendations, and areas for improvement. By
+		identifying discrepancies, inefficiencies, or non-compliance issues, audits help
+		organizations enhance their internal controls, optimize operations, and build
+		stakeholder trust.</p>
         <p>In Kongu Engineering College, the IQAC is responsible for conducting audits at various levels
             to ensure quality. Every year IQAC and academic audit is conducted at three levels, First is
-            department level once in every Semester. Second is inter department level once in every year
-            and third by external audit every year.</p>
+            department level once in every Semester. Second is inter department level audit once in every year
+            and third by external member every year.</p>
 
-        <div class="row">
-            <div class="col"><?php
+       <?php
                 $folderPath = 'files/Audit details';
                 $files = scandir($folderPath);
-
-                echo "<div class='file-container'>";
+                echo "<div class='file-container1'>";
                 rsort($files);
-
                 foreach ($files as $file) {
                     $filePath = $folderPath . '/' . $file;
-
-                    // Check if the item is a file, not a directory
                     if (is_file($filePath) && $file !== '.' && $file !== '..') {
                         echo "<a href='$filePath' class='file-link' target='_blank'>
                                 <i class='fa-regular fa-file-lines'></i> $file
@@ -55,10 +57,9 @@
                 }
 
                 echo "</div>";
-            ?></div>
+            ?>
 
-        </div>
-        <div class="row">
+            <div class="row">
             <div class="col"><?php
         $folderPath = 'files/Audit details/action taken reports';
         $files = scandir($folderPath);

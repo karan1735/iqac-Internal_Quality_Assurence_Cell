@@ -38,7 +38,7 @@
             <li>One member from the Management</li>
             <li>One/two nominees from local society, students, and alumni</li>
             <li>One/two nominees from employers, industrialists, or stakeholders</li>
-            <li>One of the senior teachers as the Chief Coordinator of the IQAC</li>
+            <li>The Chief Coordinator of the IQAC</li>
         </ul><br>
 
 

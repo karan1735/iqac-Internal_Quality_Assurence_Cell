@@ -149,7 +149,7 @@
 </ul>
 <hr>
 <BR></BR>
-<h2>BENIFITS:</h2>
+<h2>BENEFITS:</h2>
 <ul>
     <li>Ensure heightened level of clarity and focus in institutional functioning
         towards

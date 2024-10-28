@@ -50,7 +50,6 @@ $xlFiles = getFilesByExtension('iqacpdf_files/copo', ['xlsx']);
 
     <div class="bottom">
         <!--<a href="index.php">Back to Dashboard</a>-->
-        <a href="../index.php">Back to Homepage</a>
     </div>
 
     <div class="container">
@@ -63,7 +62,7 @@ $xlFiles = getFilesByExtension('iqacpdf_files/copo', ['xlsx']);
 
         <div class="box1">
             <h2>Roles and Responsibilities</h2>
-            <li> <a href="iqacpdf_files\roles\Rolls 19.09.24.pdf" target="_blank" rel="noopener noreferrer">Rolls</a>
+            <li> <a href="iqacpdf_files/roles/Roles 19.09.24.pdf" target="_blank" rel="noopener noreferrer">Roles</a>
             </li>
 
         </div>

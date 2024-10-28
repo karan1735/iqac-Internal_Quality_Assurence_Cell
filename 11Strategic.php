@@ -31,6 +31,16 @@
     <main>
 
         <h1>STRATEGIC PLAN</h1><br>
+	<p>Kongu Engineering College has completed more than three decades of dedicated
+		service in the field of technical education and has established a name for itself in
+		offering high quality professional education. The college has developed and successfully
+		implemented its first Strategic Plan for the period of five years (2015-2020) and a
+		majority of the goals envisioned in the first plan were achieved. In order to further scale
+		new heights in this highly competitive dynamic global scenario and to meet the
+		expectations of the stakeholders, the college intended to renew the strategic plan for the
+		duration of 2020-2025. Based on the results of implementation of the first strategic plan,
+		a detailed SWOT Analysis was undertaken. After a thorough analysis and several
+		deliberations, the new strategic plan has been developed.</p>
         <p>A strategic plan is a document that outlines an organization’s goals, objectives, and
             strategies for achieving success. It defines where the organization wants to go, how it will
             get there, and what resources it will need to allocate to achieve its objectives.</p>
@@ -41,7 +51,7 @@
                 strategic decisions.</li>
             <li>Strategic Objectives: Set specific, measurable, achievable, relevant, and time-bound
                 (SMART) goals.</li>
-            <li>Academic Excellence: Enhance teaching, Learning, research, and innovation.</li>
+            <li>Academic Excellence: Enhance teaching, learning, research, and innovation.</li>
             <li>Student Experience: Foster a supportive, inclusive, and engaging environment.</li>
             <li>Infrastructure and Resources: Develop and maintain modern facilities, technology, and
                 resources.</li>

@@ -30,7 +30,13 @@
     </nav>
     <main>
         <h1>ANNUAL REPORTS</h1><br>
-        <p>In Kongu Engineering College an annual report is prepared by IQAC and presented by principal
+	<p>Reports are essential documents that provide structured and detailed accounts of
+	various aspects of an organization’s activities, performance, or research. They serve as
+	a formal means of communication, enabling stakeholders to understand, assess, and act
+	upon critical information. Reports typically summarize findings, analyze data, and
+	present conclusions in a clear and organized manner, facilitating informed decision-
+	making and strategic planning.</P>
+        <p>In Kongu Engineering College an annual report is prepared by Planning Cell and presented by principal
             during the Annual day celebrations, The during consists of Enrollment and student data,
             academic highlights, curriculum and programs, Faculty and staff, research and innovation
             campus development, student life and activities, community engagement, accreditation and
