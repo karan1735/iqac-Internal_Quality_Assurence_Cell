@@ -49,7 +49,6 @@ $xlFiles = getFilesByExtension('iqacpdf_files/copo', ['xlsx']);
     </div>
 
     <div class="bottom">
-        <!--<a href="index.php">Back to Dashboard</a>-->
     </div>
 
     <div class="container">

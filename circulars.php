@@ -21,39 +21,44 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
     <style>
-    .image-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        /* Responsive columns */
-        gap: 10px;
-        /* Space between grid items */
-        margin: 20px 0;
-        /* Margin above and below the grid */
-    }
-
-    .image-item {
-        border: 1px solid #ccc;
-        /* Optional border for image items */
-        border-radius: 4px;
-        /* Optional rounded corners */
+    .pdf-wrapper {
+        position: relative;
         overflow: hidden;
-        /* Ensure images don't overflow */
-        text-align: center;
-        /* Center align text */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .image-item img {
+    .pdf-wrapper:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .pdf-wrapper iframe {
         width: 100%;
-        /* Make images responsive */
-        height: auto;
-        /* Maintain aspect ratio */
+        height: 300px;
+        border: none;
+        border-radius: 10px;
     }
 
-    .image-item p {
-        margin: 5px 0;
-        /* Margin for the filename */
-        font-size: 14px;
-        /* Font size for filename */
+    .overlay-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .file-name {
+        margin-top: 10px;
+        font-weight: 600;
+        color: #333;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 1rem;
     }
     </style>
 </head>
@@ -64,25 +69,26 @@
     <nav id="navMenu">
         <div id="navbar"></div>
     </nav>
-
     <main>
-        <h1>GALLERY</h1><br>
+        <h1>CIRCULARS</h1><br>
         <?php
-$directory = 'gallery/'; // Specify the directory containing the images
-$images = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE); // Get all image files
+$folderPath = 'files/circular';
+$files = scandir($folderPath);
 
-// Display images in a grid format
-if (count($images) > 0) {
-    echo '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">';
-    foreach ($images as $image) {
-        echo '<div style="border: 1px solid #ddd; padding: 5px; text-align: center;">';
-        echo '<img src="' . $image . '" alt="Image" style="width: 100%; height: auto;">';
-        echo '</div>';
+echo "<div class='file-container'>";
+rsort($files);
+
+foreach ($files as $file) {
+    if ($file !== '.' && $file !== '..' && pathinfo($file, PATHINFO_EXTENSION) === 'pdf') {
+        echo "<div class='pdf-wrapper'>
+                <iframe src='$folderPath/$file#toolbar=0&navpanes=0&scrollbar=0' width='100%' height='100%' scrolling='no'></iframe>
+                <a href='$folderPath/$file' target='_blank' class='overlay-link'></a>
+                <p class='file-name'>$file</p>
+              </div>";
     }
-    echo '</div>';
-} else {
-    echo '<p>No images found.</p>';
 }
+
+echo "</div>";
 ?>
 
     </main>

@@ -118,7 +118,7 @@ nav li a.active {
 
 nav i {
   margin-right: 15px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 
@@ -489,5 +489,29 @@ footer {
   .hamburger div {
     width: 20px;
     height: 2px;
+  }
+}
+
+
+/************************************************************************/
+.badge {
+  display: inline-block;
+  padding: 8px 8px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff6b6b;
+  border-radius: 8px;
+  text-transform: uppercase;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 8px rgba(255, 107, 107, 0.5), 0 0 16px rgba(255, 107, 107, 0.5), 0 0 24px rgba(255, 107, 107, 0.5);
+  }
+  to {
+    box-shadow: 0 0 12px rgba(255, 107, 107, 1), 0 0 30px rgba(255, 107, 107, 1), 0 0 36px rgba(255, 107, 107, 1);
   }
 }
