@@ -72,24 +72,93 @@
     <main>
         <h1>CIRCULARS</h1><br>
         <?php
-$folderPath = 'files/circular';
-$files = scandir($folderPath);
+        $baseFolder = 'files/circular';
+        $archivePath = "$baseFolder/archive";
 
-echo "<div class='file-container'>";
-rsort($files);
+        // Ensure the archive directory exists
+        if (!is_dir($archivePath)) {
+            mkdir($archivePath, 0777, true);
+        }
 
-foreach ($files as $file) {
-    if ($file !== '.' && $file !== '..' && pathinfo($file, PATHINFO_EXTENSION) === 'pdf') {
-        echo "<div class='pdf-wrapper'>
-                <iframe src='$folderPath/$file#toolbar=0&navpanes=0&scrollbar=0' width='100%' height='100%' scrolling='no'></iframe>
-                <a href='$folderPath/$file' target='_blank' class='overlay-link'></a>
+        // Get all folders inside `files/circular/` excluding `archive`
+        $folders = array_filter(glob("$baseFolder/*"), 'is_dir');
+        $folders = array_diff($folders, [$archivePath]); // Remove archive folder from the list
+        
+        $oneWeekAgo = time() - (7 * 24 * 60 * 60); // 7 days ago
+        
+        // Function to extract date from filename (Assuming format: circular_YYYY-MM-DD.pdf)
+        function extractDateFromFilename($filename)
+        {
+            if (preg_match('/(\d{4}-\d{2}-\d{2})/', $filename, $matches)) {
+                return strtotime($matches[1]); // Convert extracted date to timestamp
+            }
+            return false;
+        }
+
+        // Process each folder
+        foreach ($folders as $folderPath) {
+            $files = array_diff(scandir($folderPath), ['.', '..']);
+
+            foreach ($files as $file) {
+                $filePath = "$folderPath/$file";
+                $destinationPath = "$archivePath/$file";
+
+                // Only process PDF files
+                if (pathinfo($file, PATHINFO_EXTENSION) === 'pdf') {
+                    $fileDate = extractDateFromFilename($file);
+
+                    if ($fileDate !== false && $fileDate < $oneWeekAgo) {
+                        // Move the file to archive
+                        rename($filePath, $destinationPath);
+                    }
+                }
+            }
+        }
+
+        // Refresh the folders list after moving files
+        $folders = array_filter(glob("$baseFolder/*"), 'is_dir');
+        $folders = array_diff($folders, [$archivePath]); // Remove archive folder from the list
+        
+        // Display Circulars from each folder
+        foreach ($folders as $folderPath) {
+            $folderName = basename($folderPath);
+            $files = array_diff(scandir($folderPath), ['.', '..']);
+
+            if (!empty($files)) {
+                echo "<h2 class='folder-name'>$folderName</h2>";
+                echo "<div class='file-container'>";
+                rsort($files);
+
+                foreach ($files as $file) {
+                    echo "<div class='pdf-wrapper'>
+                    <iframe src='$folderPath/$file#toolbar=0&navpanes=0&scrollbar=0' width='100%' height='100%' scrolling='no'></iframe>
+                    <a href='$folderPath/$file' target='_blank' class='overlay-link'></a>
+                    <p class='file-name'>$file</p>
+                  </div>";
+                }
+                echo "</div>";
+            }
+        }
+
+        // Display Archived Circulars
+        $archiveFiles = array_diff(scandir($archivePath), ['.', '..']);
+
+        if (!empty($archiveFiles)) {
+            echo "<h2 class='folder-name'>Archived Circulars</h2>";
+            echo "<div class='file-container'>";
+            rsort($archiveFiles);
+
+            foreach ($archiveFiles as $file) {
+                echo "<div class='pdf-wrapper'>
+                <iframe src='$archivePath/$file#toolbar=0&navpanes=0&scrollbar=0' width='100%' height='100%' scrolling='no'></iframe>
+                <a href='$archivePath/$file' target='_blank' class='overlay-link'></a>
                 <p class='file-name'>$file</p>
               </div>";
-    }
-}
+            }
+            echo "</div>";
+        }
+        ?>
 
-echo "</div>";
-?>
 
     </main>
 

@@ -68,25 +68,215 @@
     <main>
         <h1>GALLERY</h1><br>
         <?php
-$directory = 'gallery/'; // Specify the directory containing the images
-$images = glob($directory . '*.{jpg,jpeg,png,gif}', GLOB_BRACE); // Get all image files
+$baseFolder = 'gallery';
+$archivePath = "$baseFolder/archive";
 
-// Display images in a grid format
-if (count($images) > 0) {
-    echo '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">';
-    foreach ($images as $image) {
-        echo '<div style="border: 1px solid #ddd; padding: 5px; text-align: center;">';
-        echo '<img src="' . $image . '" alt="Image" style="width: 100%; height: auto;">';
-        echo '</div>';
-    }
-    echo '</div>';
-} else {
-    echo '<p>No images found.</p>';
+// Ensure the archive directory exists
+if (!is_dir($archivePath)) {
+    mkdir($archivePath, 0777, true);
 }
+
+// Get all folders inside `gallery/` excluding `archive`
+$folders = array_filter(glob("$baseFolder/*"), 'is_dir');
+$folders = array_diff($folders, [$archivePath]); // Remove archive folder from the list
+
+$oneWeekAgo = time() - (7 * 24 * 60 * 60); // 7 days ago
+
+// Function to extract date from filename (Assuming format: image_YYYY-MM-DD.jpg)
+function extractDateFromFilename($filename) {
+    if (preg_match('/(\d{4}-\d{2}-\d{2})/', $filename, $matches)) {
+        return strtotime($matches[1]); // Convert extracted date to timestamp
+    }
+    return false;
+}
+
+// Process each folder
+foreach ($folders as $folderPath) {
+    $images = array_diff(scandir($folderPath), ['.', '..']);
+
+    foreach ($images as $image) {
+        $imagePath = "$folderPath/$image";
+        $destinationPath = "$archivePath/$image";
+
+        // Only process image files
+        if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $image)) {
+            $imageDate = extractDateFromFilename($image);
+
+            if ($imageDate !== false && $imageDate < $oneWeekAgo) {
+                // Move the image to archive
+                rename($imagePath, $destinationPath);
+            }
+        }
+    }
+}
+
+// Refresh the folders list after moving images
+$folders = array_filter(glob("$baseFolder/*"), 'is_dir');
+$folders = array_diff($folders, [$archivePath]); // Remove archive folder from the list
+
+echo '<div class="gallery-container">';
+
+// Store all images for JavaScript navigation
+$allImages = [];
+
+// Display Images from each folder
+foreach ($folders as $folderPath) {
+    $folderName = basename($folderPath);
+    $images = array_diff(scandir($folderPath), ['.', '..']);
+
+    if (!empty($images)) {
+        echo "<h2 class='folder-name'>$folderName</h2>";
+        echo '<div class="gallery-grid">';
+
+        foreach ($images as $image) {
+            $imageSrc = "$folderPath/$image";
+            $allImages[] = $imageSrc;
+            echo "<div class='gallery-item' onclick='openModal(\"$imageSrc\")'>
+                    <img src='$imageSrc' alt='Image'>
+                  </div>";
+        }
+        echo "</div>";
+    }
+}
+
+// Display Archived Images
+$archiveImages = array_diff(scandir($archivePath), ['.', '..']);
+
+if (!empty($archiveImages)) {
+    echo "<h2 class='folder-name'>Archived Images</h2>";
+    echo '<div class="gallery-grid">';
+
+    foreach ($archiveImages as $image) {
+        $imageSrc = "$archivePath/$image";
+        $allImages[] = $imageSrc;
+        echo "<div class='gallery-item' onclick='openModal(\"$imageSrc\")'>
+                <img src='$imageSrc' alt='Image'>
+              </div>";
+    }
+    echo "</div>";
+}
+
+echo '</div>';
 ?>
-
     </main>
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <a class="prev" onclick="prevImage()">&#10094;</a>
+        <a class="next" onclick="nextImage()">&#10095;</a>
+    </div>
 
-</body>
+    <style>
+    .gallery-container {
+        text-align: center;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 4px;
+        padding: 10px;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .gallery-item img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Modal styles */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align: center;
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        top: 100px;
+        max-width: 50%;
+        max-height: 100%;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .prev {
+        left: 20px;
+    }
+
+    .next {
+        right: 20px;
+    }
+    </style>
+
+    <script>
+    let currentImageIndex = 0;
+    let imageList = <?php echo json_encode($allImages); ?>;
+
+    function openModal(src) {
+        document.getElementById("imageModal").style.display = "block";
+        document.getElementById("modalImage").src = src;
+        currentImageIndex = imageList.indexOf(src);
+    }
+
+    function closeModal() {
+        document.getElementById("imageModal").style.display = "none";
+    }
+
+    function prevImage() {
+        if (currentImageIndex > 0) {
+            currentImageIndex--;
+        } else {
+            currentImageIndex = imageList.length - 1; // Loop back to the last image
+        }
+        document.getElementById("modalImage").src = imageList[currentImageIndex];
+    }
+
+    function nextImage() {
+        if (currentImageIndex < imageList.length - 1) {
+            currentImageIndex++;
+        } else {
+            currentImageIndex = 0; // Loop back to the first image
+        }
+        document.getElementById("modalImage").src = imageList[currentImageIndex];
+    }
+
+    // Close modal on click outside of image
+    document.getElementById("imageModal").addEventListener("click", function(event) {
+        if (event.target === this) {
+            closeModal();
+        }
+    });
+    </script>
 
 </html>

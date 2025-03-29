@@ -31,7 +31,7 @@
     <main>
         <h1>AUDITS</h1><br>
 	<p>Audits are systematic and independent examinations conducted to assess the
-		accuracy, compliance, and efficiency of an organization’s operations. The audit process
+		accuracy, compliance, and efficiency of an organization's operations. The audit process
 		typically includes planning, data collection, testing, and reporting, culminating in an
 		audit report that highlights findings, recommendations, and areas for improvement. By
 		identifying discrepancies, inefficiencies, or non-compliance issues, audits help

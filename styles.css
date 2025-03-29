@@ -28,9 +28,9 @@ header {
   align-items: center;
   box-shadow: 10px 0 35px rgba(0, 0, 0, 0.529);
   display: grid;
-  grid-template-columns:  1fr 4fr 1fr; /* Logo, marquee, and contact link */
+  grid-template-columns: 1fr 4fr 1fr; /* Logo, marquee, and contact link */
   align-items: center;
-  gap: 15px; 
+  gap: 15px;
 }
 
 nav {
@@ -55,26 +55,22 @@ nav {
   z-index: 1000;
   overflow-y: auto;
   overflow-x: hidden;
-  font-size:medium;
-  /* box-shadow: 10px -2px 300px -14px rgba(0,0,0,0.30);
-  -webkit-box-shadow: 10px -2px 300px -14px rgba(0,0,0,0.30);
-  -moz-box-shadow: 10px -2px 300px -14px rgba(0,0,0,0.30); */
-
+  font-size: medium;
 }
 
 nav::-webkit-scrollbar {
-  width: 10px; 
+  width: 10px;
 }
 
 nav::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255); 
+  background: rgb(255, 255, 255);
   border-radius: 20px;
 }
 
 nav::-webkit-scrollbar-thumb {
-  background-color: #f43d00; 
+  background-color: #f43d00;
   border-radius: 20px;
-  border: 2px solid transparent; 
+  border: 2px solid transparent;
   background-clip: content-box;
 }
 
@@ -90,8 +86,8 @@ nav ul {
 nav li {
   list-style: none;
   position: relative;
-  font-size:medium;
-  padding:0;
+  font-size: medium;
+  padding: 0;
   margin: 0;
 }
 
@@ -110,17 +106,22 @@ nav li a {
 nav li a:hover,
 nav li a.active {
   background-color: #0008ff;
+  text-decoration: none;
   color: #fff;
   margin-left: 10px;
-  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 136, 255, 0.6),
+    /* Outer glow */ 0 0 20px rgba(0, 136, 255, 0.4),
+    /* Outer glow spread */ inset 5px 5px 10px rgba(0, 0, 0, 0.2); /* Inner shadow */
   transform: translateX(5px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 nav i {
   margin-right: 15px;
   font-size: 1rem;
 }
-
 
 nav {
   scrollbar-width: thin;
@@ -189,16 +190,16 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-    font-size: 1rem; /* or 16px */
-    line-height: 1.6;
-    margin-bottom: 1em;
-    color: #000; /* Dark gray for better readability */
-    font-weight: 500;
-    font-size:large;
+  font-size: 1rem; /* or 16px */
+  line-height: 1.6;
+  margin-bottom: 1em;
+  color: #000; /* Dark gray for better readability */
+  font-weight: 500;
+  font-size: large;
 }
 li {
   color: #000;
-  font-size:large;
+  font-size: large;
 }
 h1 {
   color: #0006ac;
@@ -247,7 +248,6 @@ h1 {
   padding: 20px;
 }
 
-
 .card1 {
   display: flex;
   flex-wrap: wrap;
@@ -260,7 +260,6 @@ h1 {
   box-shadow: 1px 5px 60px 0px #00000015;
   transition: color 0.3s ease, background 0.3s ease, transform 0.3s ease;
   cursor: pointer;
-
 }
 
 .card1.card-border-top {
@@ -292,7 +291,7 @@ h1 {
 .profile-image {
   width: 100px;
   height: 100px;
-  background-size: contain; 
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 50px;
@@ -301,15 +300,11 @@ h1 {
   background-color: #ffffff;
 }
 
-
 /** file icon ***/
 .file-container {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(300px, 1fr)
-  ); 
-  gap: 20px; 
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
   padding: 10px;
 }
 
@@ -324,7 +319,7 @@ h1 {
   border: 1px solid #000000a8;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  word-wrap: break-word; 
+  word-wrap: break-word;
   transition: color 0.3s ease, background 0.3s ease, transform 0.3s ease;
 }
 
@@ -353,7 +348,7 @@ h1 {
 .file-table th {
   padding: 15px;
   background-color: #001465;
-  color:white;
+  color: white;
   text-align: left;
   font-size: large;
 }
@@ -492,26 +487,29 @@ footer {
   }
 }
 
-
 /************************************************************************/
 .badge {
   display: inline-block;
-  padding: 8px 8px;
+  justify-items: center;
+  padding: 5px;
   font-size: 10px;
   font-weight: bold;
   color: white;
-  background-color: #ff6b6b;
-  border-radius: 8px;
+  background-color: #f64242;
+  border-radius: 5px;
   text-transform: uppercase;
-  box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
+  box-shadow: 0 0 12px rgba(255, 107, 107, 0.5);
   animation: glow 1s infinite alternate;
+  margin-left: 20px;
 }
 
 @keyframes glow {
   from {
-    box-shadow: 0 0 8px rgba(255, 107, 107, 0.5), 0 0 16px rgba(255, 107, 107, 0.5), 0 0 24px rgba(255, 107, 107, 0.5);
+    box-shadow: 0 0 8px rgba(255, 107, 107, 0.5),
+      0 0 16px rgba(255, 107, 107, 0.5), 0 0 24px rgba(255, 107, 107, 0.5);
   }
   to {
-    box-shadow: 0 0 12px rgba(255, 107, 107, 1), 0 0 30px rgba(255, 107, 107, 1), 0 0 36px rgba(255, 107, 107, 1);
+    box-shadow: 0 0 12px rgba(255, 107, 107, 1), 0 0 30px rgba(255, 107, 107, 1),
+      0 0 36px rgba(255, 107, 107, 1);
   }
 }

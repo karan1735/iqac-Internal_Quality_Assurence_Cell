@@ -1,10 +1,22 @@
-
 function toggleMenu() {
-  var nav = document.getElementById("navMenu");
+  var nav = document.querySelector("nav");
   nav.classList.toggle("active");
+
+  // Add animation to hamburger icon
+  const hamburger = document.querySelector(".hamburger");
+  hamburger.classList.toggle("active");
+
+  // Close menu when clicking outside
+  document.addEventListener("click", function closeMenu(e) {
+    if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+      nav.classList.remove("active");
+      hamburger.classList.remove("active");
+      document.removeEventListener("click", closeMenu);
+    }
+  });
 }
 
-fetch("navbar.html")
+fetch("navbar.php")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("navbar").innerHTML = data;
@@ -31,7 +43,7 @@ fetch("header.php")
     document.getElementById("header").innerHTML = data;
   });
 
-  fetch("footer.html")
+fetch("footer.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("footer").innerHTML = data;

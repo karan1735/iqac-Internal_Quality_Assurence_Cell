@@ -14,7 +14,35 @@
     <li><a href="13Annual.php" class="nav-link"><i class="bi bi-file-earmark-check"></i>ANNUAL REPORT</a></li>
     <li><a href="documents.html" class="nav-link"><i class="bi bi-cloud-arrow-down"></i>DOWNLOAD IQAC
             FILES</a></li>
-    <li><a href="circulars.php" class="nav-link"><i class="bi bi-pin"></i>CIRCULARS <div class="badge">NEW</div></a>
-</li>
+            <?php
+            $baseFolder = 'files/circular';
+            
+            // Get all subfolders inside `files/circular/`, excluding hidden folders
+            $folders = array_filter(glob("$baseFolder/*"), 'is_dir');
+            
+            // Sort folders by name (assuming they are named by year, e.g., 2023-2024, 2022-2023)
+            usort($folders, function ($a, $b) {
+                return strcmp($b, $a); // Sort descending (latest folder first)
+            });
+            
+            $latestFolder = !empty($folders) ? $folders[0] : null; // Get the most recent folder
+            
+            $showBadge = false; // Default: don't show "NEW" badge
+            
+            if ($latestFolder) {
+                $files = glob("$latestFolder/*.{pdf}", GLOB_BRACE); // Get all PDFs in the latest folder
+                $showBadge = !empty($files); // Show badge if there are files
+            }
+            ?>
+            
+            <li>
+                <a href="circulars.php" class="nav-link">
+                    <i class="bi bi-pin"></i> CIRCULARS 
+                    <?php if ($showBadge): ?>
+                        <div class="badge">NEW</div>
+                    <?php endif; ?>
+                </a>
+            </li>
+            
     <li><a href="gallery.php" class="nav-link"><i class="bi bi-images"></i></i>GALLERY</a></li>
 </ul>

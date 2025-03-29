@@ -25,8 +25,9 @@
 <body>
     <header id="header">
     </header>
-    <nav id=" navMenu">
-        <div id="navbar"></div>
+    <nav id="navMenu">
+        <div id="navbar">
+        </div>
     </nav>
     <main>
         <h1>The National Board of Accreditation (NBA)</h1><br>
@@ -74,188 +75,240 @@
             under Tier I.
         </p>
 
-<table class="table" cellspacing="0" cellpadding="0">
-                       <tbody><tr>
-                            <td><p align="center"> Sl.No. </p></td>
-                            <td><p align="center"> Name of the Programme </p></td>
-                            <td><p align="center"> NAB Letter No. and Date </p></td>
-                            <td><p align="center"> Accreditation period </p></td>
-                          </tr>
-                        <tr>
-                          <td rowspan="4">1</td>
-                          <td rowspan="4">B.E. Mechanical Engineering</td>
-                          <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 18.04.2022</a></td>
-                            <td> From 2022-2023 to 2024-2025 </td>
-                        </tr>
-						  <tr>
-                              <td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 05.08.2021</a></td>
-                              <td> For 2021-2022 </td>
-                            </tr>
-						<tr>
-                            <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.09.2020</a></td>
-                            <td> For 2020-2021 </td>
-                          </tr>
-						  <tr>
-						  <td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.06.2018</a></td>
-                          <td>From 2017-2018 to 2019-2020</td>
-                        </tr>
-                        
-                        
-                        <tr>
-                          <td rowspan="4">2</td>
-                          <td rowspan="4">B.E. Electronics and Communication Engineering</td>
-                          <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 18.04.2022</a></td>
-                            <td> From 2022-2023 to 2024-2025 </td>
-                        </tr>
-						   <tr>
-                              <td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 05.08.2021</a></td>
-                              <td> For 2021-2022 </td>
-                            </tr>
-                        <tr>
-                            <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.09.2020</a></td>
-                            <td> For 2020-2021 </td>
-                          </tr>
-                        
-							
-							 <tr>
-						  <td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.06.2018</a></td>
-                          <td> From 2017-2018 to 2019-2020</td>
-                        </tr>
-                        <tr>
+        <table class="table" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td>
+                        <p align="center"> Sl.No. </p>
+                    </td>
+                    <td>
+                        <p align="center"> Name of the Programme </p>
+                    </td>
+                    <td>
+                        <p align="center"> NAB Letter No. and Date </p>
+                    </td>
+                    <td>
+                        <p align="center"> Accreditation period </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">1</td>
+                    <td rowspan="4">B.E. Mechanical Engineering</td>
+                    <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            18.04.2022</a></td>
+                    <td> From 2022-2023 to 2024-2025 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 05.08.2021</a></td>
+                    <td> For 2021-2022 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf"
+                            target='_blank'>F.No.
+                            33-50-2010-NBA dated 11.09.2020</a></td>
+                    <td> For 2020-2021 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            11.06.2018</a></td>
+                    <td>From 2017-2018 to 2019-2020</td>
+                </tr>
 
-                          <td rowspan="4">3</td>
-                          <td rowspan="4">B.E. Electronics and Instrumentation Engineering</td>
-                          
-                          <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 18.04.2022</a></td>
-                            <td> From 2022-2023 to 2024-2025 </td>
-                        </tr>
-						  <tr>
-                              <td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 05.08.2021</a></td>
-                              <td> For 2021-2022 </td>
-                            </tr>
-							<tr>
-                            <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.09.2020</a></td>
-                            <td> For 2020-2021 </td>
-                          </tr>
-						  <tr><td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.06.2018</a></td>
-                          <td>From 2017-2018 to 2019-2020</td>
-                        </tr>
-                        
-                        
-                        <tr>
-                          <td rowspan="4">4</td>
-                          <td rowspan="4">B.Tech. Chemical Engineering</td>
 
-                          <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 18.04.2022</a></td>
-                            <td> From 2022-2023 to 2024-2025 </td>
-                        </tr>
-			<tr>
-					<td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 05.08.2021</a></td>
-						<td> For 2021-2022 </td>
-                            </tr>
-                        <tr>
-                            <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.09.2020</a></td>
-                            <td> For 2020-2021</td>
-                          </tr>
-                          <tr>
-                              <td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 11.06.2018</a></td>
-                          	<td>From 2017-2018 to 2019-2020</td>
-                           </tr>
-                        
-			  <tr>
-                            <td rowspan="3">5</td>
-                            <td rowspan="3"> B.E. Mechatronics Engineering</td>
-			   <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 03.01.2024</a></td>
-                            <td> From 2023-2024 to 2028-2029 </td>
-			    </tr>
-			
-		        	<tr>
-                            <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 28.05.2020</a></td>
-                            <td> For 2020-2021 to 2022-2023 </td>
-                          </tr>
-                          <tr>
-                            <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 13.10.2017</a></td>
-                            <td> From 2017-2018 to 2019-2020 </td>
-                          </tr>
-                          <tr>
+                <tr>
+                    <td rowspan="4">2</td>
+                    <td rowspan="4">B.E. Electronics and Communication Engineering</td>
+                    <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            18.04.2022</a></td>
+                    <td> From 2022-2023 to 2024-2025 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 05.08.2021</a></td>
+                    <td> For 2021-2022 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf"
+                            target='_blank'>F.No.
+                            33-50-2010-NBA dated 11.09.2020</a></td>
+                    <td> For 2020-2021 </td>
+                </tr>
 
-                            <td rowspan="3">6</td>
-                           <td rowspan="3"> B.E. Computer Science and Engineering</td>
-				
-			   <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 03.01.2024 </a></td>
-                            <td> From 2023-2024 to 2025-2026 </td></tr>
-			    
-			    <tr>
-                            <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 28.05.2020</a></td>
-                            <td> From 2020-2021 to 2022-2023 </td>
-                          </tr>
 
-                          <tr>
-                            <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 13.10.2017</a></td>
-                            <td> From 2017-2018 to 2019-2020 </td>
-                          </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            11.06.2018</a></td>
+                    <td> From 2017-2018 to 2019-2020</td>
+                </tr>
+                <tr>
 
-                          <tr>
-                            <td rowspan="3">7</td>
-                            <td rowspan="3"> B.Tech. Information Technology</td>
+                    <td rowspan="4">3</td>
+                    <td rowspan="4">B.E. Electronics and Instrumentation Engineering</td>
 
- 			   <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 03.01.2024 </a></td>
-                            <td> From 2023-2024 to 2025-2026 </td></tr>
-			    <tr>
-                            <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 28.05.2020</a></td>
-                            <td> From 2020-2021 to 2022-2023 </td>
-                          </tr>
-                          <tr>
-                            <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 13.10.2017</a></td>
-                            <td> From 2017-2018 to 2019-2020 </td>
-                          </tr>
-                          <tr>
-                            <td rowspan="3">8</td>
-                           <td rowspan="3"> B.E. Electrical and Electronics Engineering</td>
-			   <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 03.01.2024 </a></td>
-                            <td> From 2023-2024 to 2025-2026 </td></tr>
+                    <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            18.04.2022</a></td>
+                    <td> From 2022-2023 to 2024-2025 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 05.08.2021</a></td>
+                    <td> For 2021-2022 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf"
+                            target='_blank'>F.No.
+                            33-50-2010-NBA dated 11.09.2020</a></td>
+                    <td> For 2020-2021 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            11.06.2018</a></td>
+                    <td>From 2017-2018 to 2019-2020</td>
+                </tr>
 
-			    <tr>
-                            <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 28.05.2020</a></td>
-                            <td> From 2020-2021 to 2022-2023 </td>
-                          </tr>
-                          <tr>
-                            <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 13.10.2017</a></td>
-                            <td> From 2017-2018 to 2019-2020 </td>
-                          </tr>
-                          <tr>
-                            <td rowspan="3">9</td>
-                           <td rowspan="3"> B.Tech. Food Technology</td>
-				 <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 03.01.2024 </a></td>
-                            <td> From 2023-2024 to 2028-2029 </td>
-                          </tr>
-			<tr>
-                            <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 28.05.2020</a></td>
-                            <td> From 2020-2021 to 2022-2023 </td>
-                          </tr>
-                          <tr>
-                            <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 13.10.2017</a></td>
-                            <td> From 2017-2018 to 2019-2020</td>
-                          </tr>
-                            <td>10</td>
-                            <td> BE Civil Engineering</td>
-                            <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 18.04.2022</a></td>
-                            <td> From 2022-2023 to 2024-2025 </td>
-                          </tr>
-                          
-                          <tr>
-                            <td>11</td>
-                            <td> BE Automobile Engineering</td>
-                            <td><a href="../docs/nba/KEC_NBA_AUTO_19_10_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 19.10.2022</a></td>
-                            <td> From 2022-2023 to 2024-2025 </td>
-                          </tr>
-                          <tr>
-                            <td>12</td>
-                            <td> MBA</td>
-                            <td><a href="../docs/nba/KEC_NBA_MBA_12_12_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated 12.12.2022</a></td>
-                            <td> From 2022-2023 to 2024-2025 </td>
-                          </tr>
-                        </tbody></table>
+
+                <tr>
+                    <td rowspan="4">4</td>
+                    <td rowspan="4">B.Tech. Chemical Engineering</td>
+
+                    <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            18.04.2022</a></td>
+                    <td> From 2022-2023 to 2024-2025 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_ECE_CHEM_MECH_EIE_05082021.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 05.08.2021</a></td>
+                    <td> For 2021-2022 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.09.2020_MECH_ECE_CHEM_EIE_oneyearextension.pdf"
+                            target='_blank'>F.No.
+                            33-50-2010-NBA dated 11.09.2020</a></td>
+                    <td> For 2020-2021</td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_11.06.2018.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            11.06.2018</a></td>
+                    <td>From 2017-2018 to 2019-2020</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3">5</td>
+                    <td rowspan="3"> B.E. Mechatronics Engineering</td>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 03.01.2024</a></td>
+                    <td> From 2023-2024 to 2028-2029 </td>
+                </tr>
+
+                <tr>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 28.05.2020</a></td>
+                    <td> For 2020-2021 to 2022-2023 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            13.10.2017</a></td>
+                    <td> From 2017-2018 to 2019-2020 </td>
+                </tr>
+                <tr>
+
+                    <td rowspan="3">6</td>
+                    <td rowspan="3"> B.E. Computer Science and Engineering</td>
+
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 03.01.2024 </a></td>
+                    <td> From 2023-2024 to 2025-2026 </td>
+                </tr>
+
+                <tr>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 28.05.2020</a></td>
+                    <td> From 2020-2021 to 2022-2023 </td>
+                </tr>
+
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            13.10.2017</a></td>
+                    <td> From 2017-2018 to 2019-2020 </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3">7</td>
+                    <td rowspan="3"> B.Tech. Information Technology</td>
+
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 03.01.2024 </a></td>
+                    <td> From 2023-2024 to 2025-2026 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 28.05.2020</a></td>
+                    <td> From 2020-2021 to 2022-2023 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            13.10.2017</a></td>
+                    <td> From 2017-2018 to 2019-2020 </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">8</td>
+                    <td rowspan="3"> B.E. Electrical and Electronics Engineering</td>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 03.01.2024 </a></td>
+                    <td> From 2023-2024 to 2025-2026 </td>
+                </tr>
+
+                <tr>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 28.05.2020</a></td>
+                    <td> From 2020-2021 to 2022-2023 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            13.10.2017</a></td>
+                    <td> From 2017-2018 to 2019-2020 </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">9</td>
+                    <td rowspan="3"> B.Tech. Food Technology</td>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_03012024.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 03.01.2024 </a></td>
+                    <td> From 2023-2024 to 2028-2029 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_Accreditation_Letter_28052020.pdf" target='_blank'>F.No. 33-50-2010-NBA
+                            dated 28.05.2020</a></td>
+                    <td> From 2020-2021 to 2022-2023 </td>
+                </tr>
+                <tr>
+                    <td><a href="../docs/nba/NBA_KEC_13.10.2017.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            13.10.2017</a></td>
+                    <td> From 2017-2018 to 2019-2020</td>
+                </tr>
+                <td>10</td>
+                <td> BE Civil Engineering</td>
+                <td><a href="../docs/nba/KEC_nba_18_04_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                        18.04.2022</a></td>
+                <td> From 2022-2023 to 2024-2025 </td>
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td> BE Automobile Engineering</td>
+                    <td><a href="../docs/nba/KEC_NBA_AUTO_19_10_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            19.10.2022</a></td>
+                    <td> From 2022-2023 to 2024-2025 </td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td> MBA</td>
+                    <td><a href="../docs/nba/KEC_NBA_MBA_12_12_2022.pdf" target='_blank'>F.No. 33-50-2010-NBA dated
+                            12.12.2022</a></td>
+                    <td> From 2022-2023 to 2024-2025 </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
 </body>
