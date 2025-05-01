@@ -4,7 +4,7 @@ function toggleMenu() {
   nav.classList.toggle("active");
 }
 
-fetch("navbar.html")
+fetch("navbar.php")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("navbar").innerHTML = data;

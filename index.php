@@ -22,6 +22,44 @@
     <!------------------------------------------------------------------------------------------------------------->
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+ <style>
+        .carousel-inner {
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        /* Ensure images maintain aspect ratio and cover the full container */
+        .carousel-img {
+            width: 100%;
+            height: 600px;
+            /* Default height for desktops */
+            object-fit: cover;
+            /* Ensures images fit properly without distortion */
+            filter: brightness(80%);
+        }
+
+        /* Adjust height for tablets */
+        @media (max-width: 992px) {
+            .carousel-img {
+                height: 450px;
+            }
+        }
+
+        /* Adjust height for mobile screens */
+        @media (max-width: 768px) {
+            .carousel-img {
+                height: 300px;
+            }
+        }
+
+        /* Adjust height for extra small screens */
+        @media (max-width: 576px) {
+            .carousel-img {
+                height: 250px;
+            }
+        }
+        </style>
+
 </head>
 
 <body>
@@ -30,34 +68,30 @@
     <nav id="navMenu">
         <div id="navbar"></div>
     </nav>
-    <main>
+          <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000"
             data-pause="false">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
-            <div class="carousel-inner" style="height: 37rem;border-radius: 15px; text-align:center">
+            <div class="carousel-inner">
                 <div class="maintext">
-                    <h3>Internal Quality Assurance Cell (IQAC)
-                    </h3>
+                    <h3>Internal Quality Assurance Cell (IQAC)</h3>
                 </div>
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="Asserts/itpark.jpg" alt="First slide"
-                        style="filter: brightness(80%);">
+                    <img class="d-block w-100 carousel-img" src="Asserts/itpark.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="Asserts/kecbus.jpeg" alt="Second slide"
-                        style="filter: brightness(80%);">
+                    <img class="d-block w-100 carousel-img" src="Asserts/kecbus.jpeg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="Asserts/kecgate.jpg" alt="Third slide"
-                        style="filter: brightness(80%);">
+                    <img class="d-block w-100 carousel-img" src="Asserts/kecgate.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="Asserts/img1.jpg" alt="Third slide"
-                        style="filter: brightness(80%);">
+                    <img class="d-block w-100 carousel-img" src="Asserts/img1.jpg" alt="Fourth slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -70,7 +104,7 @@
             </a>
         </div>
 
-        <br><br>
+       
         <h2>ABOUT IQAC:</h2>
         <p>Kongu Engineering College have
             established Internal Quality Assurance Cell (IQAC) from 2015 for performance
