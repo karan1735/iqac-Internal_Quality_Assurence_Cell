@@ -29,33 +29,35 @@
         <div id="navbar"></div>
     </nav>
     <main>
-        <h1>National Institutional Ranking Framework (NIRF)</h1><br>
-        <h2>NIRF &
-            Other Rankings</h2>
-        <p>Rankings
-            offer a critical overview of higher education institutions, providing a comparative analysis
-            of their
-            performance on various scales. Rankings are compiled by different organizations, each
-            employing distinct
-            methodologies to evaluate and rank institutions based on criteria such as academic
-            reputation, research
-            output, faculty quality, and student satisfaction.</p>
+        <h1>International Organization for Standardization(ISO)</h1><br>
+        <!--content start-->
+        <h2>ABOUT ISO
+        </h2>
+        <p>ISO
+            certifications represent a commitment to excellence and adherence to internationally
+            recognized
+            standards of quality, safety, and efficiency. The International Organization for
+            Standardization (ISO)
+            is an independent, non-governmental international organization that develops and publishes a
+            wide range
+            of standards across various industries and sectors. ISO certifications are valuable for
+            organizations
+            seeking to enhance their operational efficiency, improve customer satisfaction, and gain a
+            competitive
+            edge in the Nation and beyond.</p>
 
-        <h2>RANKING @
-            KEC</h2>
-        <p>National Institutional Ranking Framework (NIRF) is an initiative by the Government of India,
-            introduced in 2015, to evaluate and rank higher education institutions across the country.
-            Developed by the Ministry of Education, NIRF aims to provide a transparent and comprehensive
-            assessment of institutions based on standardized criteria.</p>
-        <p>
-            Kongu Engineering College is continuously participating in NIRF ranking from its inception
-            in the year 2015, for the year 2023 Kongu Engineering is ranked in the Band of 101 to 150 in
-            the Engineering Category and in the Band of 51 to 100 in the Innovation Category.
-            Additionally, KEC has secured top positions in several rankings conducted by various
-            organizations and magazines like, Careers 360, Business world etc.
-        </p><br>
+        <h2>ISO@KEC</h2>
+        <p>Kongu
+            Engineering College is certified by ISO in accordance with ISO 9001:1993 from 1999,
+            subsequently by ISO
+            9001:2000, and currently by ISO 9001:2015 in 2020, and recertified in 2023 for the scope of
+            Curriculum
+            Development and Conducting Undergraduate, Post Graduate, and Research Programmes in
+            Engineering, Applied
+            Sciences, and Management.</p><br>
+
         <?php
-                        $folderPath = 'files/NIRF & Other Ranking'; // Path to your folder
+                        $folderPath = '../files/ISO'; // Path to your folder
                         $files = scandir($folderPath);
 
                         // Start the file container

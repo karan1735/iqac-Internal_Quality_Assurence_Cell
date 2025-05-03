@@ -69,7 +69,7 @@
         </ol>
 
         <?php
-                        $folderPath = 'files/Strategic Plan'; 
+                        $folderPath = '../files/Strategic Plan'; 
                         $files = scandir($folderPath);
 
             

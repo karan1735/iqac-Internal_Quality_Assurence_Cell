@@ -41,7 +41,7 @@
         <br>
 
         <?php
-                        $folderPath = 'files/Best Practices'; 
+                        $folderPath = '../files/Best Practices'; 
                         $files = scandir($folderPath);
 
             

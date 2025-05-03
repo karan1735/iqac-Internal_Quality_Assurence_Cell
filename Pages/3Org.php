@@ -29,7 +29,7 @@
         <div id="navbar"></div>
     </nav>
     <main>
-        <iframe src="files/iqac chart.pdf" frameborder="0" width="100%" height="700px"></iframe>
+        <iframe src="../files/iqac chart.pdf" frameborder="0" width="100%" height="700px"></iframe>
     </main>
 
 </body>

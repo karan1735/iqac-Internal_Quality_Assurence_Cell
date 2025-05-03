@@ -48,7 +48,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                                background-image: url('Team/balusamy.png');">
+                                background-image: url('../Assets/Team/balusamy.png');">
                 </div>
                 <span> Dr.V.Balusamy</span>
                 <p class="job"> Chairman,IQAC</p>
@@ -57,7 +57,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image"
-                    style="background-image: url('Team/senthilnathan.jpg'); background-color:#ffffff">
+                    style="background-image: url('../Assets/Team/senthilnathan.jpg'); background-color:#ffffff">
                 </div>
 
                 <span>Dr.N.Senthilnathan</span>
@@ -68,7 +68,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/nirmaladevi.jpg');">
+                            background-image: url('../Assets/Team/nirmaladevi.jpg');">
                 </div>
                 <span>Dr.P.Nirmala devi</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -77,7 +77,7 @@
             <div id="3" class="card1">
                 <div class="card-border-top">
                 </div>
-                <div class="profile-image" style="background-image: url('Team/sujiprasad.jpg'); ">
+                <div class="profile-image" style="background-image: url('../Assets/Team/sujiprasad.jpg'); ">
                 </div>
                 <span>Dr.S J suji prasad</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -87,7 +87,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/abirami.jpeg');">
+                            background-image: url('../Assets/Team/abirami.jpeg');">
                 </div>
                 <span>Dr.T.Abirami</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -96,7 +96,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                                background-image: url('Team/surendar.jpg');">
+                                background-image: url('../Assets/Team/surendar.jpg');">
                 </div>
                 <span>Dr.V.Surendar</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -104,7 +104,7 @@
             <div id="5" class="card1">
                 <div class="card-border-top">
                 </div>
-                <div class="profile-image" style="background-image: url('Team/venkatesan.jpg');">
+                <div class="profile-image" style="background-image: url('../Assets/Team/venkatesan.jpg');">
                 </div>
                 <span>Dr.B.Venkatesan</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -116,7 +116,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/sundharesalingam.jpg');">
+                            background-image: url('../Assets/Team/sundharesalingam.jpg');">
                 </div>
                 <span>Dr.P.sundharesalingam</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -126,7 +126,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/ganesh.jpg');">
+                            background-image: url('../Assets/Team/ganesh.jpg');">
                 </div>
                 <span>Mr.A.Ganesh</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -136,8 +136,8 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/diviya.jpg');">
-                </div>
+                            background-image: url('../Assets/Team/diviya.jpg');">
+                </div>  
                 <span>Ms.N.Dhivya bharathi</span>
                 <p class="job"> Coordinator, IQAC</p>
             </div>
@@ -146,7 +146,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/Ms.P.Ananthi.png');">
+                            background-image: url('../Assets/Team/Ms.P.Ananthi.png');">
                 </div>
                 <span>Ms.P.Ananthi</span>
                 <p class="job"> Coordinator, IQAC</p>
@@ -157,7 +157,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/Shankar.jpeg');">
+                            background-image: url('../Assets/Team/Shankar.jpeg');">
                 </div>
                 <span>M.Shankar</span>
                 <p class="job"> DataEntry Operator,IQAC</p>
@@ -166,7 +166,7 @@
                 <div class="card-border-top">
                 </div>
                 <div class="profile-image" style="
-                            background-image: url('Team/Hemanath.jpeg');">
+                            background-image: url('../Assets/Team/Hemanath.jpeg');">
                 </div>
                 <span>K.Hemanath</span>
                 <p class="job"> Office Assistant, IQAC</p>
@@ -177,7 +177,7 @@
         <h2>FORMATION OF IQAC</h2><br>
 
         <?php
-        $folderPath = 'files/Formation of IQAC'; // Path to your folder
+        $folderPath = '../files/Formation of IQAC'; // Path to your folder
         $files = scandir($folderPath);
 
         // Start the file container

@@ -128,8 +128,8 @@
     <main>
         <h1>GALLERY</h1><br>
         <?php
-        $imageFolder = 'gallery';
-        $archiveFolder = 'gallery/archive';
+        $imageFolder = '../gallery';
+        $archiveFolder = "$imageFolder/archive";
         $sevenDaysAgo = time() - (7 * 24 * 60 * 60);
 
         // Function to recursively get all images from a directory

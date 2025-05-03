@@ -21,7 +21,7 @@
 
     <!------------------------------------------------------------------------------------------------------------->
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
  <style>
         .carousel-inner {
             border-radius: 15px;
@@ -68,7 +68,7 @@
     <nav id="navMenu">
         <div id="navbar"></div>
     </nav>
-          <main>
+        <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000"
             data-pause="false">
             <ol class="carousel-indicators">
@@ -82,16 +82,16 @@
                     <h3>Internal Quality Assurance Cell (IQAC)</h3>
                 </div>
                 <div class="carousel-item active">
-                    <img class="d-block w-100 carousel-img" src="Asserts/itpark.jpg" alt="First slide">
+                    <img class="d-block w-100 carousel-img" src="../Assets/carousel/itpark.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 carousel-img" src="Asserts/kecbus.jpeg" alt="Second slide">
+                    <img class="d-block w-100 carousel-img" src="../Assets/carousel/kecbus.jpeg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 carousel-img" src="Asserts/kecgate.jpg" alt="Third slide">
+                    <img class="d-block w-100 carousel-img" src="../Assets/carousel/kecgate.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 carousel-img" src="Asserts/img1.jpg" alt="Fourth slide">
+                    <img class="d-block w-100 carousel-img" src="../Assets/carousel/img1.jpg" alt="Fourth slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -205,19 +205,19 @@
 <h2>OUTCOMES:</h2><br>
 <section>
     <section class="image-grid">
-        <div class="grid-item"><img src="outcomes-asserts/NBA.png" alt="Image 7">
+        <div class="grid-item"><img src="../Assets/outcomes/NBA.png" alt="Image 7">
         </div>
-        <div class="grid-item"><img src="outcomes-asserts/NAAC.png" alt="Image 6">
+        <div class="grid-item"><img src="../Assets/outcomes/NAAC.png" alt="Image 6">
         </div>
-        <div class="grid-item"><img src="outcomes-asserts/ISO.png" alt="Image 5">
+        <div class="grid-item"><img src="../Assets/outcomes/ISO.png" alt="Image 5">
         </div>
-        <div class="grid-item"><img src="outcomes-asserts/NIRF.jpg" alt="Image 8">
+        <div class="grid-item"><img src="../Assets/outcomes/NIRF.jpg" alt="Image 8">
         </div>
-        <div class="grid-item"><img src="outcomes-asserts/ARIIA.png" alt="Image 1"></div>
-        <div class="grid-item"><img src="outcomes-asserts/BUSINESS WORLD.jpg" alt="Image 2"></div>
-        <div class="grid-item"><img src="outcomes-asserts/CAREERS 360.jpg" alt="Image 3"></div>
-        <div class="grid-item"><img src="outcomes-asserts/INDIA TODAY.png" alt="Image 4"></div>
-        <div class="grid-item"><img src="outcomes-asserts/THE_WEEK.jpg" alt="Image 9"></div>
+        <div class="grid-item"><img src="../Assets/outcomes/ARIIA.png" alt="Image 1"></div>
+        <div class="grid-item"><img src="../Assets/outcomes/BUSINESS WORLD.jpg" alt="Image 2"></div>
+        <div class="grid-item"><img src="../Assets/outcomes/CAREERS 360.jpg" alt="Image 3"></div>
+        <div class="grid-item"><img src="../Assets/outcomes/INDIA TODAY.png" alt="Image 4"></div>
+        <div class="grid-item"><img src="../Assets/outcomes/THE_WEEK.jpg" alt="Image 9"></div>
     </section>
 </section>
 

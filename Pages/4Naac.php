@@ -62,7 +62,7 @@
         </p><br>
 
         <?php
-                        $folderPath = 'files/naac/NAAC Certificate';
+                        $folderPath = '../files/naac/NAAC Certificate';
                         $files = scandir($folderPath);
 
                         echo "<div class='file-container'>";
@@ -84,7 +84,7 @@
         <br>
         <h2>SSR</h2><br>
         <?php
-                        $folderPath = 'files/naac/NAAC SSR'; // Path to your folder
+                        $folderPath = '../files/naac/NAAC SSR'; // Path to your folder
                         $files = scandir($folderPath);
 
                         // Start the file container
@@ -108,7 +108,7 @@
         <h2>AQAR</h2><br>
 
         <?php
-                        $folderPath = 'files/naac/AQAR'; // Path to your folder
+                        $folderPath = '../files/naac/AQAR'; // Path to your folder
                         $files = scandir($folderPath);
 
                         // Start the file container

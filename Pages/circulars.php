@@ -167,7 +167,7 @@
             }
         }
 
-        $mainDirectory = 'files/circular';
+        $mainDirectory = '../circular';
         $archiveDirectory = "$mainDirectory/archive";
 
         if (is_dir($mainDirectory)) {

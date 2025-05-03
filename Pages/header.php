@@ -4,11 +4,11 @@
               <div></div>
               <div></div>
           </div>
-          <img src="image.png" alt="Kongu College Logo" class="logo" />
+          <img src="Logo.png" alt="Kongu College Logo" class="logo" />
       </div>
 
       <?php
-          $filePath = 'scrolling-text'; 
+          $filePath = '../scrolling-text'; 
 
           // Check if the file exists
           if (file_exists($filePath)) {
@@ -25,7 +25,7 @@
       ?>
 
       <div>
-          <a href="Contact.php" class="contact-link">CONTACT</a>
+          <a href="Pages/Contact.php" class="contact-link">CONTACT</a>
       </div>
 
 

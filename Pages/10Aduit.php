@@ -43,7 +43,7 @@
             and third by external member every year.</p>
 
     <?php
-                $folderPath = 'files/Audit details';
+                $folderPath = '../files/Audit details';
                 $files = scandir($folderPath);
                 echo "<div class='file-container1'>";
                 rsort($files);
@@ -61,7 +61,7 @@
 
             <div class="row">
             <div class="col"><?php
-        $folderPath = 'files/Audit details/action taken reports';
+        $folderPath = '../files/Audit details/action taken reports';
         $files = scandir($folderPath);
 
 
@@ -81,7 +81,7 @@
         ?>
             </div><br>
             <div class="col"><?php
-        $folderPath = 'files/Audit details/reports';
+        $folderPath = '../files/Audit details/reports';
         $files = scandir($folderPath);
 
 

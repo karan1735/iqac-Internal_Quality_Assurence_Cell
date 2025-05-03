@@ -1,5 +1,5 @@
 <ul>
-    <li><a href="index.php" class="nav-link"><i class="bi bi-house"></i>HOME</a></li>
+    <li><a href="1Home.php" class="nav-link"><i class="bi bi-house"></i>HOME</a></li>
     <li><a href="2Composition.php" class="nav-link"><i class="bi bi-people"></i>COMPOSITION</a></li>
     <li><a href="3Org.php" class="nav-link"><i class="bi bi-diagram-3"></i>ORGANIZATION HIERARCHY</a></li>
     <li><a href="4Naac.php" class="nav-link"><i class="bi bi-bar-chart-line"></i>NAAC</a></li>

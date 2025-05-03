@@ -31,7 +31,7 @@
     <main>
         <h1>ANNUAL REPORTS</h1><br>
 	<p>Reports are essential documents that provide structured and detailed accounts of
-	various aspects of an organization’s activities, performance, or research. They serve as
+	various aspects of an organizationï¿½s activities, performance, or research. They serve as
 	a formal means of communication, enabling stakeholders to understand, assess, and act
 	upon critical information. Reports typically summarize findings, analyze data, and
 	present conclusions in a clear and organized manner, facilitating informed decision-
@@ -45,7 +45,7 @@
         <br>
 
         <?php
-                        $folderPath = 'files/Annual Reports';
+                        $folderPath = '../files/Annual Reports';
                         $files = scandir($folderPath);
 
                         echo "<div class='file-container'>";

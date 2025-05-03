@@ -53,7 +53,7 @@
         <br>
 
         <?php
-        $folderPath = 'files/Meeting & Minutes'; // Path to your folder
+        $folderPath = '../files/Meeting & Minutes'; // Path to your folder
         $files = scandir($folderPath);
 
         // Remove '.' and '..' from the files array
